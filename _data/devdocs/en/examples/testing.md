@@ -69,6 +69,10 @@ bitcoin-cli -regtest setgenerate true 101
 
 ## Bitcoin Core master (as of commit 48265f3)
 bitcoin-cli -regtest generate 101
+
+## Bitcoin Core master 0.18 and later
+bitcoin-cli -regtest getnewaddress
+bitcoin-cli -regtest generatetoaddress 101 "<address>"
 ~~~
 
 {% autocrossref %}

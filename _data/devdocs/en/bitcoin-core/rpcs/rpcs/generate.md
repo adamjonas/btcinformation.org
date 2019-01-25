@@ -11,6 +11,8 @@ http://opensource.org/licenses/MIT.
 
 {% autocrossref %}
 
+*Deprecated in Bitcoin Core 0.18.0 and fully removed in Bitcoin Core 0.19.0*
+
 *Requires wallet support.*
 
 The `generate` RPC {{summary_generate}}
@@ -22,7 +24,7 @@ The `generate` RPC {{summary_generate}}
   t: "number (int)"
   p: "Required<br>(exactly 1)"
   d: "The number of blocks to generate.  The RPC call will not return until all blocks have been generated or the maxium number of iterations has been reached"
-  
+
 {% enditemplate %}
 
 *Parameter #2---the maximum number of iterations to try*
